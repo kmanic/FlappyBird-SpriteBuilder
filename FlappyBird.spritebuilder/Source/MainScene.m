@@ -163,7 +163,7 @@
             // move it to the right
             if (bush.position.x <= (-1 * bush.contentSize.width)) {
                 bush.position = ccp(bush.position.x +
-                                    2 * bush.contentSize.width, bush.position.y);
+                                    10 * bush.contentSize.width, bush.position.y);
             }
         }
         
